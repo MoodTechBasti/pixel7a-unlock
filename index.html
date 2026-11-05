@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="de">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pixel 7a Recovery</title>
+<style>
+ body{font:16px/1.45 system-ui,sans-serif;margin:0;padding:18px;background:#111;color:#eee}
+ h1{font-size:21px;margin:0 0 4px}
+ p{color:#aaa;font-size:14px;margin:0 0 18px}
+ ol{margin:0 0 18px 22px;padding:0}
+ li{margin:0 0 16px}
+ a.btn{display:block;padding:16px;background:#1e1e1e;border:1px solid #444;border-radius:10px;
+   color:#9fe;text-decoration:none;font-weight:700}
+ small{display:block;color:#888;font-weight:400;margin-top:5px;word-break:break-all}
+ .warn{background:#2a1d08;border:1px solid #6b4a12;padding:12px;border-radius:9px;color:#f3c778;font-size:13px}
+</style>
+<h1>Pixel 7a: Root + OEM-Unlock</h1>
+<p>Nur für das eigene Gerät. In dieser Reihenfolge installieren.</p>
+<div class="warn">Erst KernelSU, dann GhostLock, dann den Flag-Helper. Nach GhostLock rooten, im Flag-Helper Root zulassen und 1–4 der Reihe nach drücken.</div>
+<ol>
+<li><a class="btn" href="https://github.com/tiann/KernelSU/releases/download/v3.3.1/KernelSU_v3.3.1_32680-release.apk">1. KernelSU installieren<small>Root-Manager</small></a></li>
+<li><a class="btn" href="https://github.com/YuKongA/ghostlock-app/releases/download/pre-release/GhostLock-release.apk">2. GhostLock installieren<small>temporäres Root, CVE-2026-43499</small></a></li>
+<li><a class="btn" href="REA-FRP-Flag.apk">3. REA FRP Flag installieren<small>setzt das OEM-Unlock-Byte und den Digest</small></a></li>
+</ol>
+<p><a href="https://github.com/MoodTechBasti/pixel7a-unlock">Quellen und Anleitung</a></p>
+<p><strong>Nicht</strong> <code>fastboot flashing lock</code> nach crDroid.</p>
