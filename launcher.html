@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>REA Launcher</title>
+<style>
+ body{font:16px/1.4 system-ui,sans-serif;margin:0;padding:16px;background:#111;color:#eee}
+ h1{font-size:18px;margin:0 0 4px}
+ p{margin:0 0 16px;color:#aaa;font-size:13px}
+ ul{list-style:none;margin:0;padding:0}
+ li{margin:0 0 8px}
+ a{display:block;padding:14px;background:#1e1e1e;border:1px solid #333;border-radius:10px;
+   color:#8fd;text-decoration:none;font-weight:600}
+ small{display:block;color:#777;font-weight:400;font-size:11px;margin-top:4px;word-break:break-all}
+</style>
+<h1>REA Launcher</h1>
+<p>Tippen oeffnet das Ziel direkt. Wenn Chrome fragt: "Oeffnen mit" -> Chrome.</p>
+<ul>
+<li><a href="intent:#Intent;action=android.settings.APPLICATION_DETAILS_SETTINGS;data=package:com.google.android.inputmethod.latin;end">App-Info Gboard (Absturz-Ausgang)<small>Von hier: App beenden / Deaktivieren</small></a></li>
+<li><a href="intent:#Intent;action=android.intent.action.MAIN;component=com.android.settings/.Settings;end">Settings (root)<small>com.android.settings.Settings</small></a></li>
+<li><a href="intent:#Intent;action=android.intent.action.MAIN;component=com.android.settings/.development.DevelopmentSettingsDashboardActivity;end">Developer options<small>com.android.settings.development.DevelopmentSettingsDashboardActivity</small></a></li>
+<li><a href="intent:#Intent;action=android.intent.action.MAIN;component=com.android.settings/.deviceinfo.AboutPhoneFragment;end">About phone<small>com.android.settings.deviceinfo.AboutPhoneFragment</small></a></li>
+<li><a href="intent:#Intent;action=android.intent.action.MAIN;component=com.android.settings/.deviceinfo.BuildNumberPreferenceController;end">Build number (via About)<small>com.android.settings.deviceinfo.BuildNumberPreferenceController</small></a></li>
+<li><a href="intent:#Intent;action=android.intent.action.MAIN;component=com.android.settings/.accessibility.AccessibilitySettings;end">Accessibility<small>com.android.settings.accessibility.AccessibilitySettings</small></a></li>
+<li><a href="intent:#Intent;action=android.intent.action.MAIN;component=com.android.settings/.applications.ManageApplications;end">Apps<small>com.android.settings.applications.ManageApplications</small></a></li>
+<li><a href="intent:#Intent;action=android.settings.APPLICATION_DETAILS_SETTINGS;data=package:com.google.android.inputmethod.latin;end">App info: Gboard<small>com.google.android.inputmethod.latin</small></a></li>
+<li><a href="intent:#Intent;action=android.settings.APPLICATION_DETAILS_SETTINGS;data=package:com.google.android.setupwizard;end">App info: Setup Wizard<small>com.google.android.setupwizard</small></a></li>
+<li><a href="intent:#Intent;action=android.settings.APPLICATION_DETAILS_SETTINGS;data=package:com.google.android.gms;end">App info: Play Services<small>com.google.android.gms</small></a></li>
+<li><a href="intent:#Intent;action=android.intent.action.MAIN;component=com.android.chrome/com.google.android.apps.chrome.Main;end">Chrome<small>com.android.chromecom.google.android.apps.chrome.Main</small></a></li>
+<li><a href="intent:#Intent;action=android.settings.APPLICATION_DETAILS_SETTINGS;data=package:com.google.android.documentsui;end">Files<small>com.google.android.documentsui</small></a></li>
+<li><a href="intent:#Intent;action=android.settings.APPLICATION_DETAILS_SETTINGS;data=package:com.google.android.packageinstaller;end">Package installer<small>com.google.android.packageinstaller</small></a></li>
+<li><a href="intent:#Intent;action=android.intent.action.MAIN;component=com.android.settings/.SystemDashboardActivity;end">System UI tuner<small>com.android.settings.SystemDashboardActivity</small></a></li>
+</ul>
