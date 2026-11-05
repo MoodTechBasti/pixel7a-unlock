@@ -15,7 +15,7 @@ Schlüssel wie der DPC (Zertifikat `CN=REA DPC`).
 - Vor dem Schreiben wird die Partition nach `/data/local/tmp` gesichert.
 
 Direktdownload:
-`https://raw.githubusercontent.com/MoodTechBasti/pixel7a-unlock/main/apk/REA-FRP-Flag.apk`
+`https://github.com/MoodTechBasti/pixel7a-unlock/raw/refs/heads/main/apk/REA-FRP-Flag.apk`
 
 ## Unlock DPC
 
