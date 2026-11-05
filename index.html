@@ -14,13 +14,13 @@
  small{display:block;color:#888;font-weight:400;margin-top:5px;word-break:break-all}
  .warn{background:#2a1d08;border:1px solid #6b4a12;padding:12px;border-radius:9px;color:#f3c778;font-size:13px}
 </style>
-<h1>Pixel 7a: Root + OEM-Unlock</h1>
-<p>Nur für das eigene Gerät. In dieser Reihenfolge installieren.</p>
-<div class="warn">Erst KernelSU, dann GhostLock, dann den Flag-Helper. Nach GhostLock rooten, im Flag-Helper Root zulassen und 1–4 der Reihe nach drücken.</div>
+<h1>Pixel 7a (lynx): Root + OEM-Unlock</h1>
+<p>Nur für das eigene Gerät. Reihenfolge einhalten.</p>
+<div class="warn">KSuRoot unterstützt <code>lynx</code> auf <code>CP2A.260705.006</code> ausdrücklich und arbeitet ohne ADB. Nach Erfolg Root-Manager installieren, dann im Flag-Helper Root zulassen und 1–4 drücken.</div>
 <ol>
-<li><a class="btn" href="https://github.com/tiann/KernelSU/releases/download/v3.3.1/KernelSU_v3.3.1_32680-release.apk">1. KernelSU installieren<small>Root-Manager</small></a></li>
-<li><a class="btn" href="https://github.com/YuKongA/ghostlock-app/releases/download/pre-release/GhostLock-release.apk">2. GhostLock installieren<small>temporäres Root, CVE-2026-43499</small></a></li>
-<li><a class="btn" href="REA-FRP-Flag.apk">3. REA FRP Flag installieren<small>setzt das OEM-Unlock-Byte und den Digest</small></a></li>
+<li><a class="btn" href="KSuRoot-4.1.2.apk">1. KSuRoot 4.1.2 installieren<small>GhostLock / CVE-2026-43499, exakter Pixel-7a-Build</small></a></li>
+<li><a class="btn" href="REA-FRP-Flag.apk">2. REA FRP Flag installieren<small>setzt das OEM-Unlock-Byte und den Digest</small></a></li>
+<li><a class="btn" href="KernelSU-v3.3.1.apk">3. Root-Manager installieren<small>KernelSU, falls KSuRoot ihn verlangt</small></a></li>
 </ol>
 <p><a href="https://github.com/MoodTechBasti/pixel7a-unlock">Quellen und Anleitung</a></p>
 <p><strong>Nicht</strong> <code>fastboot flashing lock</code> nach crDroid.</p>
